@@ -10,7 +10,7 @@ const academicOfficerRoutes = require("./route/academicOfficerRoutes");
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:3000',"https://taalib.onrender.com/"]
+  origin: ['http://localhost:3000',"https://taalib.onrender.com"]
 }));
 
 
